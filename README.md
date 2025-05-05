@@ -75,9 +75,11 @@ You need not to do this in practical it is just for the installation
 
    ```bash
    docker ps -a
-   docker rm <container_id>
    ```
-
+   
+   ```bash
+   docker rm <container_id>
+    ```
 ---
 
 ## 🔚 Final Note
