@@ -21,18 +21,28 @@ Each practical has a folder with:
 
 ### 🔧 Prerequisites:
 
-* Run `.docker/install-docker.sh` (installs Docker)
-* Run `.docker/install-node.sh` (installs Node.js)
+* 👉 [install-docker.sh](./docker/install-docker.sh)
+  Run this to install Docker:
 
-You need not to do this in practical it is just for the installation 
+  ```bash
+  ./docker/install-docker.sh
+  ```
 
-> ✅ Check with `node -v`
+* 👉 [install-node.sh](./docker/install-node.sh)
+  Run this to install Node.js:
+
+  ```bash
+  ./docker/install-node.sh
+  ```
+
+> ✅ After installation, check with: `node -v`
+
 
 ---
 
 ### 📁 Steps:
 
-1. Create a folder → Add:
+1. Create a folder named docker → Add:
 
    * `app.js` with
 
