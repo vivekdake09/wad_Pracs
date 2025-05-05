@@ -28,6 +28,8 @@ Each practical has a folder with:
   ./docker/install-docker.sh
   ```
 
+  >  After successfull installation you'll be prompted ✅ Docker installation complete
+
 * 👉 [install-node.sh](./docker/install-node.sh)
   Run this to install Node.js:
 
