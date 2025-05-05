@@ -1,6 +1,5 @@
----
-
-## 🛠️ Practical : Angular User Authentication App
+## 🛠️ Practical : Create an Angular application which will do following actions :
+Register User, Login User, Show User Data on Profile Component
 
 ### 🔧 Steps:
 
