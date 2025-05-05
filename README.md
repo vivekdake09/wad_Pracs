@@ -165,7 +165,7 @@ Each practical has a folder with:
 
 ✅ Done!
 
-
+---
 
 ## 🛠️ Practical : Angular User Authentication App
 
