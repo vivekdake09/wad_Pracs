@@ -1,5 +1,3 @@
----
-
 ## 🛠️ Practical : Angular User Authentication App
 
 ### 🔧 Steps:
