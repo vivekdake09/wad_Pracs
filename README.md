@@ -61,9 +61,9 @@ Each practical has a folder with:
        "scripts": { "start": "node app.js" }
      }
      ```
-   * `Dockerfile`:
+   * `Dockerfile` (without any extension):
 
-     ```Dockerfile (without any extension)
+     ```Dockerfile
      FROM node:18
      WORKDIR /app
      COPY . .
