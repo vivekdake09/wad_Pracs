@@ -39,6 +39,7 @@ Each practical has a folder with:
 
 > ✅ After installation, check with: `node -v`
 
+> You don't need this for practical it's just for installation
 
 ---
 
