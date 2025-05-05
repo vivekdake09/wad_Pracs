@@ -44,7 +44,7 @@ Each practical has a folder with:
 
 ### 📁 Steps:
 
-1. Create a folder named docker → Add:
+1. Create a folder named docker → then create file named:
 
    * `app.js` with
 
@@ -63,7 +63,7 @@ Each practical has a folder with:
      ```
    * `Dockerfile`:
 
-     ```Dockerfile
+     ```Dockerfile (without any extension)
      FROM node:18
      WORKDIR /app
      COPY . .
