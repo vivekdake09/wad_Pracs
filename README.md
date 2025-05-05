@@ -19,7 +19,7 @@ Each practical has a folder with:
 
 ## 🐳 Practical: Create Docker Container Environment
 
-### 🔧 Prerequisites:
+### 🔧 Prerequisites (You don't need this for practical it's just for installation):
 
 * 👉 [install-docker.sh](./docker/install-docker.sh)
   Run this to install Docker:
@@ -38,8 +38,6 @@ Each practical has a folder with:
   ```
 
 > ✅ After installation, check with: `node -v`
-
-> You don't need this for practical it's just for installation
 
 ---
 
