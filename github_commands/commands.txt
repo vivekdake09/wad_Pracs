@@ -1,6 +1,6 @@
 git init
 
-git remote add origin https://github.com/ashutoshh-17
+git remote add origin https://github.com/[github-username]/[repository-url]
 
 git add .
 
