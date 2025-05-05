@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>User Registration</title>
+    <style>
+        body { font-family: Arial, sans-serif; margin: 50px; }
+        .container { width: 300px; margin: auto; }
+        input, button { width: 100%; margin: 5px 0; padding: 8px; }
+        .error { color: red; font-size: 14px; }
+    </style>
+</head>
+<body>
+ 
+<div class="container">
+    <h2>User Registration</h2>
+    <form id="registrationForm">
+        <input type="text" id="name" placeholder="Full Name" required>
+        <input type="email" id="email" placeholder="Email" required>
+        <input type="password" id="password" placeholder="Password" required>
+        <input type="password" id="confirmPassword" placeholder="Confirm Password" required>
+        <button type="submit">Register</button>
+        <p class="error" id="errorMessage"></p>
+    </form>
+</div>
+ 
+<script src="script.js"></script>
+ 
+</body>
+</html>
+ 
+
