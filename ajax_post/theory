@@ -1,0 +1,10 @@
+1. What is AJAX?	AJAX allows data to be sent/received asynchronously without reloading the page.
+2. What is the difference between POST and GET?	GET fetches data, POST sends data securely.
+3. What is localStorage?	A browser-based storage to store data persistently as key-value pairs.
+4. How to send data using POST in JS?	Using fetch() or XMLHttpRequest with method POST.
+5. Why use JSON.stringify()?	To convert JavaScript objects into JSON strings before storing or sending.
+6. What is the use of e.preventDefault()?	Stops the form from submitting the default way (page reload).
+7. How do you retrieve data from localStorage?	Using localStorage.getItem("key").
+8. How do you redirect to another page in JS?	Using window.location.href = "page.html".
+9. Why use addEventListener("submit")?	To handle form submit events using JavaScript.
+10. What is the use of headers in fetch()?	To define the data type being sent or received (e.g., JSON).
