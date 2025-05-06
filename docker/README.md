@@ -1,5 +1,5 @@
 ---
-
+ 
 # 🐳 Practical: Create Docker Container Environment
 
 This guide walks you through setting up Docker, running your first container, and managing containers on a Linux system.
