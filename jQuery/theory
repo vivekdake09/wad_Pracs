@@ -1,0 +1,41 @@
+📚 B. Viva Theory Concepts
+🔹 What is jQuery Mobile?
+jQuery Mobile is a framework that helps create responsive, touch-friendly web interfaces for mobile devices. It is built on top of the jQuery library.
+
+🔹 Features:
+Supports all major mobile platforms (Android, iOS, etc.)
+
+Uses HTML5-based UI elements
+
+Simple theming and navigation
+
+Uses data-role attributes for structure
+
+🔹 Key Components:
+data-role="page": Defines a mobile page.
+
+data-role="header" / "footer" / "content": Structure within a page.
+
+ui-btn: Class to style buttons.
+
+Single-page navigation using hash URLs (#pageid).
+
+🎓 C. Viva Questions and Answers
+✅ Q1. What is jQuery Mobile?
+A: It is a framework that helps build responsive mobile websites using jQuery and HTML5 with minimal code.
+
+✅ Q2. How is jQuery Mobile different from jQuery?
+A: jQuery is a general-purpose JS library; jQuery Mobile adds mobile-specific UI components and layouts on top of jQuery.
+
+✅ Q3. What is the purpose of data-role attributes?
+A: They define roles for elements, such as page, header, content, and footer, which jQuery Mobile converts into mobile-friendly components.
+
+✅ Q4. What is a single-page application (SPA) in jQuery Mobile?
+A: In jQuery Mobile, multiple divs with data-role="page" act as internal pages within one HTML file, allowing navigation without reloading the page.
+
+✅ Q5. How does navigation between pages work?
+A: Using anchor tags like <a href="#about">, it uses the hash to switch between pages defined in the same HTML file.
+
+✅ Q6. How is responsiveness achieved in jQuery Mobile?
+A: It uses CSS media queries and scalable components to adjust layout automatically for different screen sizes.
+
