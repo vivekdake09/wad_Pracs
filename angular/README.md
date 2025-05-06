@@ -43,10 +43,10 @@ ng serve
 8. Generate components and service
 
 ```bash
-ng generate component components/register
-ng generate component components/login
-ng generate component components/profile
-ng generate service services/auth
+ng generate component components/register       OR       ng g c register
+ng generate component components/login       OR        ng g c login
+ng generate component components/profile       OR       ng g c profile
+ng generate service services/auth          OR        ng g c auth
 ```
 
 ---
