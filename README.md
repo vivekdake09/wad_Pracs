@@ -1,4 +1,4 @@
-# ⚙️ LP II Practicals
+# 🚀 LP II Practicals
 
 All practicals are easy af! Just try each one manually — the rest, you’re smart enough to handle! 😎
 💻 Practical Environment: Ubuntu
