@@ -1,0 +1,44 @@
+🔧 Theory: Creating a Docker Container Environment
+✅ What is Docker?
+Docker is a platform that allows developers to package applications and their dependencies into containers. These containers run consistently across different environments.
+
+✅ What is a Docker Container?
+A Docker container is a lightweight, standalone, executable package that includes everything needed to run a piece of software: code, runtime, libraries, and system tools.
+
+✅ Key Components:
+Dockerfile: Script containing instructions to build a Docker image.
+
+Docker Image: The snapshot created from a Dockerfile. Used to run containers.
+
+Docker Container: The running instance of a Docker image.
+
+Docker Hub: Public registry to store and share images.
+
+
+ Viva Questions and Answers
+🔹 Q1. What is Docker and why is it used?
+A: Docker is a containerization platform used to package applications and dependencies into containers. It ensures consistency across development, testing, and production environments.
+
+🔹 Q2. What is the difference between a Docker image and a container?
+A: An image is a read-only template used to create containers. A container is a running instance of an image.
+
+🔹 Q3. What is the purpose of a Dockerfile?
+A: A Dockerfile contains instructions to build a Docker image, such as base image, working directory, copy commands, dependencies, and start command.
+
+🔹 Q4. How do you build and run a Docker container?
+A: Use docker build -t image_name . to build and docker run image_name to run the container.
+
+🔹 Q5. What does the WORKDIR instruction do in a Dockerfile?
+A: It sets the working directory inside the container where commands will be executed.
+
+🔹 Q6. How can you view all containers (even stopped ones)?
+A: Using docker ps -a.
+
+🔹 Q7. What happens if you modify code? Do you need to rebuild the image?
+A: Yes. If source code or dependencies change, rebuild the image with docker build.
+
+🔹 Q8. What command removes stopped containers?
+A: docker rm <container_id>
+
+🔹 Q9. How do you expose a port from a container to your host machine?
+A: Use -p hostPort:containerPort with docker run, e.g., docker run -p 3000:3000 image_name.
