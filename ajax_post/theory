@@ -1,3 +1,19 @@
+
+✅ How AJAX Works – Simple Explanation
+AJAX (Asynchronous JavaScript and XML) is a technique that allows web pages to send and receive data from a server asynchronously, without reloading the page.
+
+🔄 AJAX Working Process (Step-by-step)
+User Event: A user performs an action (e.g., form submission, button click).
+
+JavaScript Creates Request: JavaScript creates an AJAX request using XMLHttpRequest or fetch().
+
+Send to Server: The request is sent to the server (e.g., using POST or GET method).
+
+Server Processes: The server processes the request and sends back a response (usually in JSON or XML format).
+
+JavaScript Handles Response: The JavaScript code receives the response and updates the HTML (DOM) dynamically without reloading the page.
+
+
 1. What is AJAX?	AJAX allows data to be sent/received asynchronously without reloading the page.
 2. What is the difference between POST and GET?	GET fetches data, POST sends data securely.
 3. What is localStorage?	A browser-based storage to store data persistently as key-value pairs.
