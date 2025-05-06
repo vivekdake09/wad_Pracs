@@ -17,83 +17,95 @@ Each practical has a folder with:
 
 ---
 
-## 🐳 Practical: Create Docker Container Environment
+# 🐳 Practical: Create Docker Container Environment
 
-### 🔧 Prerequisites (You don't need this for practical it's just for installation):
-
-* 👉 [install-docker.sh](./docker/install-docker.sh)
-  Run this to install Docker:
-
-  ```bash
-  ./docker/install-docker.sh
-  ```
-
-  >  After successfull installation you'll be prompted ✅ Docker installation complete
-
-* 👉 [install-node.sh](./docker/install-node.sh)
-  Run this to install Node.js:
-
-  ```bash
-  ./docker/install-node.sh
-  ```
-
-> ✅ After installation, check with: `node -v`
+This guide walks you through setting up Docker, running your first container, and managing containers on a Linux system.
 
 ---
 
-### 📁 Steps:
+## 🛠️ Step-by-Step Commands
 
-1. Create a folder named docker → then create file named:
+### 1. Install Docker
 
-   * `app.js` with
+```bash
+sudo apt install docker.io
+```
 
-     ```js
-     console.log("Hello from Docker!");
-     ```
-   * `package.json`:
+Installs Docker Engine from Ubuntu’s package repository.
 
-     ```json
-     {
-       "name": "docker-app",
-       "version": "1.0.0",
-       "main": "app.js",
-       "scripts": { "start": "node app.js" }
-     }
-     ```
-   * `Dockerfile` (without any extension):
+---
 
-     ```Dockerfile
-     FROM node:18
-     WORKDIR /app
-     COPY . .
-     RUN npm install
-     CMD ["npm", "start"]
-     ```
+### 2. Check Docker Version
 
-2. **Build Docker image**:
+```bash
+docker --version
+```
 
-   ```bash
-   docker build -t my-node-app .
-   ```
+Displays the installed Docker version to confirm the installation.
 
-3. **Run Docker container**:
+---
 
-   ```bash
-   docker run my-node-app
-   ```
+### 3. Check Docker Service Status
 
-4. **View/Remove containers**:
+```bash
+sudo systemctl status docker
+```
 
-   ```bash
-   docker ps -a
-   ```
-   
-   ```bash
-   docker rm <container_id>
-    ```
+Shows if the Docker service is active, inactive, or failed.
 
-✅ Done!
+---
 
+### 4. Start Docker Service
+
+```bash
+sudo systemctl start docker
+```
+
+Starts the Docker service if it’s not already running.
+
+---
+
+### 5. Run a Test Container
+
+```bash
+sudo docker run hello-world
+```
+
+Downloads and runs a test container to verify Docker is working.
+
+---
+
+### 6. List All Containers
+
+```bash
+sudo docker ps -a
+```
+
+Lists all containers (running + stopped) on your system.
+
+---
+
+### 7. Remove a Container
+
+```bash
+sudo docker rm <container_id>
+```
+
+Deletes a container. Replace `<container_id>` with the actual ID from the previous command.
+
+---
+
+### 8. Stop Docker Service
+
+```bash
+sudo systemctl stop docker
+```
+
+Stops the Docker service to save system resources.
+
+---
+
+## ✅ DONE
 ---
 
 ## 📱 Practical : Mobile Website using jQuery Mobile
